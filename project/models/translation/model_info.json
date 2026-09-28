@@ -1,0 +1,11 @@
+{
+  "id": "qwen2.5-1.5b-instruct-q4_k_m",
+  "name": "Qwen2.5 1.5B 中英互译",
+  "engine": "llama_cpp",
+  "path": "models/translation/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "source_languages": ["en", "zh-CN"],
+  "target_languages": ["en", "zh-CN"],
+  "default_source": "en",
+  "default_target": "zh-CN",
+  "description": "前期主力中英互译模型，基于 llama-cpp-python 驱动"
+}

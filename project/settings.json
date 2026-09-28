@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "enabled": true,
+  "autostart": false,
+  "capture_mode": "fullscreen",
+  "monitor_index": 0,
+  "ui": {
+    "language": "auto",
+    "resolved_language": "zh_CN"
+  },
+  "language": {
+    "source_lang": "en",
+    "target_lang": "zh-CN",
+    "auto_detect_source": false,
+    "default_pair_by_system": true
+  },
+  "ocr_model_id": "win11_media_ocr",
+  "ocr_model_dir": "models/ocr/rapidocr",
+  "translation_model_id": "qwen2.5-1.5b-instruct-q4_k_m",
+  "translation_model_path": "models/translation/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "trigger_delay_sec": 3,
+  "auto_route": true,
+  "adaptive_retry": true,
+  "enable_ai_ocr_refine": true,
+  "preprocess": {
+    "denoise": false,
+    "clahe": false,
+    "deskew": false,
+    "auto_invert_dark": true,
+    "sharpen": true
+  },
+  "overlay": {
+    "font_family": "Microsoft YaHei",
+    "font_size": 18,
+    "bg_alpha": 180,
+    "text_color": "#FFFFFF"
+  },
+  "cache": {
+    "enable": true,
+    "max_items": 50,
+    "hash_distance": 5
+  },
+  "log": {
+    "level": "INFO",
+    "dir": "logs",
+    "backup_days": 7
+  }
+}

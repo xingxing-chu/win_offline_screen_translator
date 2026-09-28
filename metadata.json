@@ -1,0 +1,6 @@
+{
+  "name": "Win11 离线屏幕实时翻译助手",
+  "description": "Windows 11 离线屏幕实时翻译助手完整架构、项目源码生成器与交互式仿真工作台",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

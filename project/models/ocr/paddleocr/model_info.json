@@ -1,0 +1,12 @@
+{
+  "id": "paddleocr_ch",
+  "name": "PaddleOCR 中英 (PP-OCRv4)",
+  "engine": "paddleocr",
+  "path": "models/ocr/paddleocr",
+  "languages": ["en", "zh-CN"],
+  "lang": "ch",
+  "det_model_dir": "ch_PP-OCRv4_det_infer",
+  "rec_model_dir": "ch_PP-OCRv4_rec_infer",
+  "cls_model_dir": "ch_ppocr_mobile_v2.0_cls_infer",
+  "description": "PaddleOCR 离线中英轻量级高精度识别模型"
+}

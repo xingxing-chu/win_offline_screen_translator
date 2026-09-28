@@ -1,0 +1,11 @@
+{
+  "id": "opus-mt-en-zh-ct2",
+  "name": "OPUS-MT 英译中",
+  "engine": "ctranslate2",
+  "path": "opus-mt-en-zh-ct2",
+  "source_languages": ["en"],
+  "target_languages": ["zh-CN"],
+  "default_source": "en",
+  "default_target": "zh-CN",
+  "description": "轻量级高效率 CTranslate2 离线模型，专精英文至简体中文"
+}
